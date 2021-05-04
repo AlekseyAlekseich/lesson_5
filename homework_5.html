@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Document</title>
+  <style type="text/css">
+  body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .massif {
+    display: grid;
+    width: 50%;
+    height: auto;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));  auto-fill - auto-fit 
+    margin: auto;
+    margin-top: 100px;
+  }
+  .massif h5 {
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  .massif input {
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #ADA9A8;
+    border: none;
+    height: 20px;
+  }
+  button {
+    margin-left: 25px;
+    width: 146px;
+    height: 23px;
+    margin-top: 76px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    border: none;
+  }
+  </style>
+</head>
+<body>
+    <div class="massif">
+      <div class="name">
+        <h5>First name</h5>
+        <input type="text" name="name">
+      </div>
+      <div class="email">
+        <h5>Email</h5>
+        <input type="email" name="email">
+      </div>
+      <div class="password">
+        <h5>Password</h5>
+        <input type="password" name="password">
+      </div>
+      <div class="button">
+        <button>Sign up</button>
+      </div>
+    </div>
+</body>
+</html>
